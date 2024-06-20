@@ -13,5 +13,5 @@ University
     VALUES ('5001', '12', 'Matteo', 'Mascio');
 10. UPDATE teachers
     SET office_number = '126'
-    WHERE office_number = '125';
+    WHERE surname LIKE  'Rizzo';
 11. DELETE FROM students WHERE id = 5001;    
